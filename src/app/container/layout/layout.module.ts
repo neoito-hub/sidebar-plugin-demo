@@ -14,6 +14,7 @@ import { LayoutComponent } from './layout.component';
     FooterComponent,
     ContentComponent,
     LayoutComponent
-  ]
+  ],
+  exports: []
 })
 export class LayoutModule {}
