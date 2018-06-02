@@ -1,0 +1,11 @@
+.s-nav {
+  width: 56px;
+  background: #04292f;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}

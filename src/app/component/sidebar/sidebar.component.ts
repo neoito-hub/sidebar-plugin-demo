@@ -6,7 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  constructor() {}
+  items = [
+    {
+      id: 1,
+      menu: 'menu1'
+    }
+  ];
+  constructor() {
+    console.log(this.items);
+  }
 
   ngOnInit() {}
 }
