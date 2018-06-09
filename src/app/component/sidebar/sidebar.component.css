@@ -2,7 +2,7 @@
   width: 56px;
   background: #04292f;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   color: white;
   z-index: 1;
@@ -17,6 +17,7 @@
   padding: 12px 0px 10px 0px;
   text-align: center;
 }
+
 .s-nav .toggle-icon {
   padding-top: 18px;
 }
