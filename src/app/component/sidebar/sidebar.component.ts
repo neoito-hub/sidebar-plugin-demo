@@ -15,17 +15,19 @@ export class SidebarComponent implements OnInit {
         id: 1,
         menu: 'menu1',
         url: '#',
-        icon: '',
+        icon: 'assignment_turned_in',
         toggleButton: ''
       },
       {
         id: 2,
         menu: 'menu2',
+        icon: 'card_travel',
         url: '#'
       },
       {
         id: 23,
         menu: 'menu3',
+        icon: 'event',
         url: '#'
       }
     ],

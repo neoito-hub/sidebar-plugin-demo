@@ -14,5 +14,9 @@
 }
 
 .s-nav li {
-  padding: 10px 7px 10px 7px;
+  padding: 12px 0px 10px 0px;
+  text-align: center;
+}
+.s-nav .toggle-icon {
+  padding-top: 18px;
 }
