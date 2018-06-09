@@ -1,5 +1,10 @@
 <div class="s-nav">
   <ul>
-    <li *ngFor="let item of items">{{item.menu}}</li>
+    <li>
+      <i class="material-icons">
+        menu
+      </i>
+    </li>
+    <li *ngFor="let item of s.items">{{item.menu}}</li>
   </ul>
 </div>

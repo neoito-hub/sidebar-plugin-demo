@@ -4,8 +4,14 @@
   height: 100vh;
   position: absolute;
   top: 0;
+  color: white;
 }
-ul {
+
+.s-nav ul {
   margin: 0px;
   padding: 0px;
+}
+
+.s-nav li {
+  padding: 10px 7px 10px 7px;
 }
