@@ -1,8 +1,13 @@
-.n-footer{
-    background: black;
-    height: 60px;
-    display: flex;
-    padding: 5px;
-    font-size: 13px;
-    color: white;
+.n-footer {
+  background: black;
+  display: flex;
+  font-size: 13px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.first-section,
+.sec-section {
+  padding: 10px 17px 10px 77px;
 }

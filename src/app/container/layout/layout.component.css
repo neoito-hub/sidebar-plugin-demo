@@ -1,3 +1,5 @@
 .content-container {
-  margin: 4px 20px 8px 76px;
+  padding: 4px 20px 8px 76px;
+  overflow: overlay;
+  height: 80vh;
 }
