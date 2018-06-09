@@ -1,0 +1,8 @@
+.n-footer{
+    background: black;
+    height: 60px;
+    display: flex;
+    padding: 5px;
+    font-size: 13px;
+    color: white;
+}
