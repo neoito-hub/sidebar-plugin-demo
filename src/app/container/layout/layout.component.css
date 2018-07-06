@@ -1,5 +1,5 @@
 .content-container {
   padding: 4px 20px 8px 76px;
-  /* overflow: overlay;
-  height: 80vh; */
+  background: #22252a;
+  color: white;
 }
