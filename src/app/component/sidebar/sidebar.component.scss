@@ -1,5 +1,5 @@
 .s-nav {
-  width: 56px;
+  width: 55px;
   background: #171719;
   height: 100vh;
   position: fixed;
@@ -12,6 +12,13 @@
     i {
       color: #d0d0df;
       font-size: 18px;
+      cursor: pointer;
+    }
+    .logout {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
     }
   }
   li {
@@ -24,6 +31,6 @@
     margin-bottom: 11px;
   }
   .toggle-icon img {
-    padding: 13px 0px 7px 0px;
+    padding: 9px 0px 2px 0px;
   }
 }
