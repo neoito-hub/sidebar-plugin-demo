@@ -4,6 +4,7 @@ import { SidebarComponent } from '../../component/sidebar/sidebar.component';
 import { TopbarComponent } from '../../component/topbar/topbar.component';
 import { ContentComponent } from '../../component/content/content.component';
 import { LayoutComponent } from './layout.component';
+import { DashboardComponent } from '../../component/dashboard/dashboard.component';
 
 @NgModule({
   imports: [CommonModule],
@@ -11,7 +12,8 @@ import { LayoutComponent } from './layout.component';
     SidebarComponent,
     TopbarComponent,
     ContentComponent,
-    LayoutComponent
+    LayoutComponent,
+    DashboardComponent
   ],
   exports: []
 })
