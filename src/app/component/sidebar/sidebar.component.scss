@@ -6,23 +6,19 @@
   top: 0;
   color: white;
   z-index: 1;
-}
-
-.s-nav ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-.s-nav li {
-  padding: 12px 0px 10px 0px;
-  text-align: center;
-}
-
-.s-nav .toggle-icon {
-  padding: 0px;
-  background: #2d3035;
-}
-
-.s-nav .toggle-icon img {
-  padding: 13px 0px 7px 0px;
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    padding: 12px 0px 10px 0px;
+    text-align: center;
+  }
+  .toggle-icon {
+    padding: 0px;
+    background: #2d3035;
+  }
+  .toggle-icon img {
+    padding: 13px 0px 7px 0px;
+  }
 }
