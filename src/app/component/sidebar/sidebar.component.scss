@@ -6,6 +6,7 @@
   top: 0;
   color: white;
   z-index: 1;
+  transition: width 1s;
   ul {
     margin: 0px;
     padding: 0px;
@@ -27,8 +28,11 @@
     }
   }
   li {
-    padding: 16px 0px 14px 0px;
-    text-align: center;
+    padding: 16px 0px 14px 16px;
+    display: flex;
+  }
+  p {
+    display: none;
   }
   .toggle-icon {
     padding: 0px;
@@ -36,9 +40,16 @@
     margin-bottom: 11px;
   }
   .toggle-icon img {
-    padding: 9px 0px 2px 0px;
+    padding: 9px 0px 7px 10px;
   }
   .active-nav {
     border-right: 1px solid red;
   }
+}
+.sideNavExpand p {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 0px 0px 17px;
+  font-size: 13px;
+  transition: width 1s;
 }

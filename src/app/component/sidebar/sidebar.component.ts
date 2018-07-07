@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
+  public showMenu = false;
   s = {
     theme: '', // background color
     logo: '',
@@ -50,9 +51,18 @@ export class SidebarComponent implements OnInit {
       }
     ]
   };
-  constructor() {
-    console.log(this.s);
-  }
+  constructor() {}
+
+  // side nav open
+  sidenav() {
+    this.showMenu = !this.showMenu;
+    document.getElementById('s-nav').classList.toggle('sideNavExpand');
+    if (this.showMenu === false) {
+      document.getElementById('s-nav').style.width = '54px';
+    } else {
+      document.getElementById('s-nav').style.width = '200px';
+    }
+  } // side nav open end
 
   ngOnInit() {}
 }
